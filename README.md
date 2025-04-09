@@ -17,8 +17,8 @@ GreenDen is a modern and minimalistic interior plant shop website built using **
 
 ## 🚀 View Project
 
-Visit the website here: https://sathiyanarayanan53.github.io/greenden-tailwind/ 
-*(Replace the URL with your actual GitHub repo link)*
+Visit the website here: (https://sathiyanarayanan53.github.io/greenden-tailwind/)
+
 
 ## 🛠️ Technologies Used
 
