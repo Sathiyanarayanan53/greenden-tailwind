@@ -41,4 +41,4 @@
 git clone https://github.com/sathiyanarayanan53/greenden-tailwind.git
 
 # Navigate into the project folder
-cd greenden-tailwind
+cd Greenden
