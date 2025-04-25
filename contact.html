@@ -15,7 +15,7 @@
             <h1 class="text-2xl">Greenden</h1>
     
     
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-5 h-5 md:hidden">
+            <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-5 h-5 md:hidden">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
                 
@@ -31,6 +31,22 @@
             </li>
            </ul>
         </nav>
+        <section class="bg-green-100 fixed z-30 top-0  transistion-all duration-900 "id="sidenav" style="width: 50%; height:100vh; right:-50%">
+            <div class="text-right p-5">
+                <p  id="closenav" class="inline cursor-pointer">x</p>
+            </div>
+            <ul class="gap-10 flex flex-col items-center  md:flex p-10" >
+                <li>
+                    <a href="index.html" class="hover:underline hover:text-black-600">Home</a>
+                </li>
+                <li>
+                    <a href="product.html" class="hover:underline hover:text-black-600">Products</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="hover:underline hover:text-black-600">Contact</a>
+                </li>
+               </ul>
+         </section>
 <!-- contact form -->
         <section class="bg-white dark:bg-gray-900">
             <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
@@ -60,5 +76,6 @@
                 <p> Bringing Nature's Harmony Into Your Home.</p>
                 <p>@ 2021 greenden.com</p>
            </section>
+           <script src="contact.js"></script>
 </body>
 </html>
